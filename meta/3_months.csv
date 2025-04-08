@@ -20,7 +20,7 @@ MEDIUM,,Binary Tree Right Side View,,0.6588462291750820,https://leetcode.com/pro
 EASY,,Valid Palindrome,Can use character class or check char in range ,0.502843074029796,https://leetcode.com/problems/valid-palindrome,"Two Pointers, String",,,
 MEDIUM,,Dot Product of Two Sparse Vectors,Hashmap of index to non zero,0.8991611492800750,https://leetcode.com/problems/dot-product-of-two-sparse-vectors,"Array, Hash Table, Two Pointers, Design",,,
 MEDIUM,,Top K Frequent Elements,"Hashmap, freq array of array List<Integer>[]",0.6415066952135570,https://leetcode.com/problems/top-k-frequent-elements,"Array, Hash Table, Divide and Conquer, Sorting, Heap (Priority Queue), Bucket Sort, Counting, Quickselect",,,
-MEDIUM,,Merge Intervals,,0.48881447000372400,https://leetcode.com/problems/merge-intervals,"Array, Sorting",,,
+MEDIUM,,Merge Intervals,Sort by start date then merge by setting end date to max of the two,0.48881447000372400,https://leetcode.com/problems/merge-intervals,"Array, Sorting",,,
 MEDIUM,,Sum Root to Leaf Numbers,DFS,0.6799164224187580,https://leetcode.com/problems/sum-root-to-leaf-numbers,"Tree, Depth-First Search, Binary Tree",,,
 EASY,,Moving Average from Data Stream,,0.7966762783872780,https://leetcode.com/problems/moving-average-from-data-stream,"Array, Design, Queue, Data Stream",,,
 MEDIUM,,Copy List with Random Pointer,"Run through list first and store all else in hashmap, then run through a second time generating a new node",0.5965901759777930,https://leetcode.com/problems/copy-list-with-random-pointer,"Hash Table, Linked List",,,
