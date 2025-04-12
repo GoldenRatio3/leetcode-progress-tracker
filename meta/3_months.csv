@@ -36,8 +36,11 @@ HARD,Y,Vertical Order Traversal of a Binary Tree,"HashMap of col to list of int[
 MEDIUM,N,Max Consecutive Ones III,"two pointer approach, sliding windows",0.6534583623943440,https://leetcode.com/problems/max-consecutive-ones-iii,"Array, Binary Search, Sliding Window, Prefix Sum",,,
 HARD,Y,Valid Number,Not hard as just iterating through string and keeping track of has seen booleans but lots of if/else cases to get right,0.2118270894611050,https://leetcode.com/problems/valid-number,String,,,
 MEDIUM,Y,Find First and Last Position of Element in Sorted Array,"Two binary search, one for left index, one for right, modification is to check if searching for left or right then update window accordingly",0.4624176309349460,https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array,"Array, Binary Search",,,
-MEDIUM,,Maximum Swap,,0.5174181560703810,https://leetcode.com/problems/maximum-swap,"Math, Greedy",,,
-MEDIUM,,Next Permutation,,0.42429383841013200,https://leetcode.com/problems/next-permutation,"Array, Two Pointers",,,
+MEDIUM,Y,Maximum Swap,"Not super hard, convert to char array to process, run through twice once to store last values position and next to swap least and most significant bit",0.5174181560703810,https://leetcode.com/problems/maximum-swap,"Math, Greedy",,,
+MEDIUM,Y,Next Permutation,"Need to know the algo, 	— Starting from the right, find the first position where the elements are not in descending order. This is the ""breakpoint.""
+— 	Swap the breakpoint with the smallest element larger than it, found to the right.
+—	Reverse the subarray to the right of the breakpoint to get the smallest possible order.
+",0.42429383841013200,https://leetcode.com/problems/next-permutation,"Array, Two Pointers",,,
 MEDIUM,,Clone Graph,,0.6136428744929140,https://leetcode.com/problems/clone-graph,"Hash Table, Depth-First Search, Breadth-First Search, Graph",,,
 HARD,,Expression Add Operators,,0.41180729705625500,https://leetcode.com/problems/expression-add-operators,"Math, String, Backtracking",,,
 MEDIUM,,Minimum Add to Make Parentheses Valid,,0.746897736215092,https://leetcode.com/problems/minimum-add-to-make-parentheses-valid,"String, Stack, Greedy",,,
