@@ -41,7 +41,7 @@ MEDIUM,Y,Next Permutation,"Need to know the algo, 	— Starting from the right, 
 — 	Swap the breakpoint with the smallest element larger than it, found to the right.
 —	Reverse the subarray to the right of the breakpoint to get the smallest possible order.
 ",0.42429383841013200,https://leetcode.com/problems/next-permutation,"Array, Two Pointers",,,
-MEDIUM,,Clone Graph,,0.6136428744929140,https://leetcode.com/problems/clone-graph,"Hash Table, Depth-First Search, Breadth-First Search, Graph",,,
+MEDIUM,Y,Clone Graph,"Not hard, DFS storing nodes in hashmap",0.6136428744929140,https://leetcode.com/problems/clone-graph,"Hash Table, Depth-First Search, Breadth-First Search, Graph",,,
 HARD,,Expression Add Operators,,0.41180729705625500,https://leetcode.com/problems/expression-add-operators,"Math, String, Backtracking",,,
 MEDIUM,,Minimum Add to Make Parentheses Valid,,0.746897736215092,https://leetcode.com/problems/minimum-add-to-make-parentheses-valid,"String, Stack, Greedy",,,
 EASY,,Valid Parentheses,,0.419169364964607,https://leetcode.com/problems/valid-parentheses,"String, Stack",,,
