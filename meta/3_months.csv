@@ -45,7 +45,7 @@ MEDIUM,Y,Clone Graph,"Not hard, DFS storing nodes in hashmap",0.6136428744929140
 HARD,Y,Expression Add Operators,"Very difficult, need to go over, uses backtrack but with a lot of edge cases e.g. overflow (so need to use long), 0 sequence and multiplication ",0.41180729705625500,https://leetcode.com/problems/expression-add-operators,"Math, String, Backtracking",,,
 MEDIUM,N,Minimum Add to Make Parentheses Valid,"Stack solution, iterate through storing in stack",0.746897736215092,https://leetcode.com/problems/minimum-add-to-make-parentheses-valid,"String, Stack, Greedy",,,
 EASY,N,Valid Parentheses,Quite easy but remember edge cases e.g. stack is not empty when popping and after iterating string,0.419169364964607,https://leetcode.com/problems/valid-parentheses,"String, Stack",,,
-MEDIUM,Y,Continuous Subarray Sum,,0.3073585128585190,https://leetcode.com/problems/continuous-subarray-sum,"Array, Hash Table, Math, Prefix Sum",,,
+MEDIUM,Y,Continuous Subarray Sum,HashMap with prefix sum and modulus,0.3073585128585190,https://leetcode.com/problems/continuous-subarray-sum,"Array, Hash Table, Math, Prefix Sum",,,
 MEDIUM,,(Premium) Insert into a Sorted Circular Linked List,,0.377316394882153,https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list,Linked List,,,
 EASY,,Closest Binary Search Tree Value,,0.5009245207643040,https://leetcode.com/problems/closest-binary-search-tree-value,"Binary Search, Tree, Depth-First Search, Binary Search Tree, Binary Tree",,,
 MEDIUM,,Accounts Merge,,0.5894476217464340,https://leetcode.com/problems/accounts-merge,"Array, Hash Table, String, Depth-First Search, Breadth-First Search, Union Find, Sorting",,,
